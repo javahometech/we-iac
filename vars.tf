@@ -10,3 +10,11 @@ variable "subnet_cidr" {
 variable "region" {
     default = "us-east-1"
 }
+
+variable "s3_bucket"{
+    default = "arn:aws:s3:::javahome-we-cdn/*"
+}
+
+variable "web_ami"{
+    default = "ami-0c94855ba95c71c99"
+}
